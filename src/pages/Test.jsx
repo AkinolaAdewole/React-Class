@@ -3,7 +3,9 @@ import React from 'react'
 const Test = () => {
   const Title = 'This is new React Class';
   const link = 'https://www.facebook.com';
-  const user = {name:'Yoshi', age:30}
+  const user = {name:'Yoshi', age:30};
+
+  const handleClick =()=>{};
   return (
     <div>
         <div>I am test react</div>
