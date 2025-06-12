@@ -10,9 +10,9 @@ const Test = () => {
         <div>React Class</div>
         <div>{ Title }</div>
         <a href="https://www.google.com">Google</a>
-        <a href={link}>Facebook</a>
+        <div><a href={link}>Facebook</a></div>
         <div>{'Netninja, React class'}</div>
-        <div>{user.name} and {user.age}</div>
+        <div>{user.name} is {user.age} years</div>
     </div>
   )
 }
