@@ -5,7 +5,9 @@ const Test = () => {
   const link = 'https://www.facebook.com';
   const user = {name:'Yoshi', age:30};
 
-  const handleClick =()=>{};
+  const handleClick =()=>{
+    alert('Button Clicked');
+  };
   return (
     <div>
         <div>I am test react</div>
@@ -15,6 +17,8 @@ const Test = () => {
         <div><a href={link}>Facebook</a></div>
         <div>{'Netninja, React class'}</div>
         <div>{user.name} is {user.age} years</div>
+        <br />
+        <button onClick={handleClick}>handleClick</button>
     </div>
   )
 }
